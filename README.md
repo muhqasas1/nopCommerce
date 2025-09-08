@@ -1,80 +1,139 @@
-﻿﻿nopCommerce: free and open-source eCommerce solution
-===========
+# Ultimate nopCommerce Learning Guide
 
-[nopCommerce](https://www.nopcommerce.com/?utm_source=github&utm_medium=content&utm_campaign=homepage) is the best open-source eCommerce platform. nopCommerce is free, and it is the most popular ASP.NET Core shopping cart.
+## 🎯 About This Guide
 
-![nopCommerce demo](https://www.nopcommerce.com/images/github/responsive_devices_codeplex.png#v1)
+This comprehensive learning resource teaches enterprise ASP.NET Core architecture through real-world nopCommerce code. Following the style of "Ultimate ASP.NET Core Web API" by Marinko Spasojevic & Vladimir Pecanac, this guide explains advanced concepts through actual implementation examples.
 
-### Key features ###
+## 🚀 Quick Start
 
-* The product is being developed and supported by the professional team since 2008.
-* nopCommerce has been downloaded more than 3,000,000 times.
-* The active developer community has more than 250,000 members.
-* nopCommerce runs on .NET 9 with an MS SQL 2012 (or higher) backend database.
-* nopCommerce is cross-platform, and you can run it on Windows, Linux, or Mac.
-* nopCommerce supports Docker out of the box, so you can easily run nopCommerce on a Linux machine.
-* nopCommerce supports PostgreSQL and MySQL databases.
-* nopCommerce fully supports web farms. You can read more about it [here](https://docs.nopcommerce.com/en/developer/tutorials/web-farms.html?utm_source=github&utm_medium=referral&utm_campaign=documentation&utm_content=text).  
-* All methods in nopCommerce are async.
-* nopCommerce supports multi-factor authentication out of the box.
-* Start our [online course for developers](https://nopcommerce.com/training?utm_source=github&utm_medium=referral&utm_campaign=course&utm_content=text) and get the practical and technical skills you need to run and customize nopCommerce websites.
+1. **Start Here**: [Main Learning Guide](./nopCommerce-Learning-Guide.md)
+2. **Chapter 1**: [Project Structure and Architecture](./Chapter-1-Project-Structure.md)
+3. **Practice**: [Practical Exercises](./Practical-Exercises.md)
+4. **Reference**: [Glossary and Cheat Sheet](./Glossary-and-Cheat-Sheet.md)
 
-![Logo](https://www.nopcommerce.com/images/github/logos.png#v2)
+## 📚 What You'll Learn
 
-nopCommerce architecture follows well-known software patterns and the best security practices. The source code is fully customizable. Pluggable and clear architecture makes it easy to develop custom functionality and follow any business requirements.
+### Core Concepts
+- **Layered Architecture**: How nopCommerce organizes code for maintainability
+- **Dependency Injection**: Advanced DI patterns in enterprise applications
+- **Caching Strategies**: Multi-level caching for performance
+- **Middleware Pipeline**: Request processing and cross-cutting concerns
 
-Using the latest Microsoft technologies, nopCommerce provides high performance, stability, and security. nopCommerce is also fully compatible with Azure and web farms.
+### Enterprise Patterns
+- **Service Layer Pattern**: Business logic encapsulation
+- **Repository Pattern**: Data access abstraction
+- **Event-Driven Architecture**: Loose coupling through events
+- **Plugin System**: Extensibility and modularity
 
-Our clear and detailed [documentation](https://docs.nopcommerce.com/developer/index.html?utm_source=github&utm_medium=referral&utm_campaign=documentation&utm_content=text) and [online course](https://nopcommerce.com/training?utm_source=github&utm_medium=referral&utm_campaign=course&utm_content=text) for developers will help you start with nopCommerce easily.
+### Real-World Skills
+- **Code Navigation**: How to explore large codebases
+- **Performance Optimization**: Caching and async patterns
+- **Security Implementation**: Authentication and authorization
+- **Testing Strategies**: Unit and integration testing
 
+## 🎯 Target Audience
 
-### The advantages of working with nopCommerce ###
+- **Junior .NET Developers** looking to level up
+- **Developers** familiar with ASP.NET Core basics
+- **Architects** wanting to understand enterprise patterns
+- **Anyone** interested in learning from real-world code
 
-nopCommerce offers powerful [out-of-the-box features](https://www.nopcommerce.com/features?utm_source=github&utm_medium=referral&utm_campaign=features&utm_content=text) for creating an online store of any size and type.
+## 📖 Learning Philosophy
 
-nopCommerce is integrated with all the popular third-party services. You can find thousands of integrations on nopCommerce [Marketplace](https://www.nopcommerce.com/marketplace?utm_source=github&utm_medium=referral&utm_campaign=marketplace&utm_content=text).
+This guide follows the **"Real Application → Concept → Explanation → Code Walkthrough → Business Reasoning"** approach:
 
-The [Web API plugin](https://www.nopcommerce.com/web-api?utm_source=github&utm_medium=referral&utm_campaign=WebAPI&utm_content=text) by the nopCommerce team lets you build integrations with third-party services or mobile applications using REST. The Web API plugin is available with source code and covers all methods of nopCommerce: backend and frontend. You can read more about it [here](https://www.nopcommerce.com/web-api?utm_source=github&utm_medium=referral&utm_campaign=WebAPI&utm_content=text).
+1. **Start with Real Code**: Examine actual nopCommerce implementations
+2. **Extract the Concept**: Understand the underlying pattern
+3. **Deep Dive**: Explain how and why it works
+4. **Connect to Business**: Understand business reasoning
+5. **Practice**: Hands-on exercises to reinforce learning
 
-Friendly members of the [nopCommerce community](https://www.nopcommerce.com/boards?utm_source=github&utm_medium=referral&utm_campaign=forum&utm_content=text) will always help with advice and share their experiences. nopCommerce core development team provides [professional support](https://www.nopcommerce.com/nopcommerce-premium-support-services?utm_source=github&utm_medium=referral&utm_campaign=premium_support&utm_content=text) within 24 hours.
+## 🛠️ Prerequisites
 
+- Basic knowledge of C# and .NET
+- Understanding of ASP.NET Core fundamentals
+- Familiarity with Entity Framework Core
+- Basic understanding of design patterns
 
-## Store demo ##
+## 📁 File Structure
 
-Evaluate the functionality and convenience of nopCommerce as a customer and store owner.
+```
+├── nopCommerce-Learning-Guide.md          # Main guide and table of contents
+├── Chapter-1-Project-Structure.md         # Architecture and project structure
+├── Chapter-2-Dependency-Injection.md      # DI patterns and service layer
+├── Chapter-3-Caching-Strategies.md        # Caching and performance
+├── Chapter-4-Middleware-Pipeline.md       # Middleware and request pipeline
+├── Practical-Exercises.md                 # Hands-on exercises and tasks
+├── Glossary-and-Cheat-Sheet.md           # Quick reference and definitions
+└── README.md                              # This file
+```
 
-Front End | Admin area
-----|------
-[![ScreenShot](https://www.nopcommerce.com/images/github/public-demo.png#v1)](https://demo.nopcommerce.com?utm_source=github&utm_medium=referral&utm_campaign=demo_store&utm_content=button) | [![ScreenShot](https://www.nopcommerce.com/images/github/admin-demo.png#v1)](https://admin-demo.nopcommerce.com/admin?utm_source=github&utm_medium=referral&utm_campaign=demo_store&utm_content=button)
+## 🎯 How to Use This Guide
 
+### For Self-Paced Learning
+1. **Read sequentially**: Start with Chapter 1 and work through each chapter
+2. **Follow exercises**: Complete the practical exercises in each chapter
+3. **Use the cheat sheet**: Reference the glossary while coding
+4. **Practice regularly**: Apply patterns to your own projects
 
-### nopCommerce resources ###
+### For Team Learning
+1. **Group study**: Read chapters together and discuss concepts
+2. **Code reviews**: Review each other's exercise implementations
+3. **Pair programming**: Work through exercises together
+4. **Knowledge sharing**: Present findings to the team
 
-nopCommerce official site: [https://www.nopcommerce.com](https://www.nopcommerce.com/?utm_source=github&utm_medium=referral&utm_campaign=homepage&utm_content=links)
+### For Mentoring
+1. **Use as curriculum**: Structure learning sessions around chapters
+2. **Assign exercises**: Give mentees specific exercises to complete
+3. **Code walkthroughs**: Go through nopCommerce code together
+4. **Real projects**: Apply patterns to actual work projects
 
-* [Demo store](https://www.nopcommerce.com/demo?utm_source=github&utm_medium=referral&utm_campaign=demo_store&utm_content=links)
-* [Download nopCommerce](https://www.nopcommerce.com/download-nopcommerce?utm_source=github&utm_medium=referral&utm_campaign=download_nop&utm_content=links)
-* [Online course for developers](https://nopcommerce.com/training?utm_source=github&utm_medium=referral&utm_campaign=course&utm_content=links)
-* [Feature list](https://www.nopcommerce.com/features?utm_source=github&utm_medium=referral&utm_campaign=features&utm_content=links)
-* [Web API plugin](https://www.nopcommerce.com/web-api?utm_source=github&utm_medium=referral&utm_campaign=WebAPI&utm_content=links)
-* [nopCommerce documentation](https://docs.nopcommerce.com?utm_source=github&utm_medium=referral&utm_campaign=documentation&utm_content=links)
-* [Community forums](https://www.nopcommerce.com/boards?utm_source=github&utm_medium=referral&utm_campaign=forum&utm_content=links)
-* [Premium support services](https://www.nopcommerce.com/nopcommerce-premium-support-services?utm_source=github&utm_medium=referral&utm_campaign=premium_support&utm_content=links)
-* [Certified developer program](https://www.nopcommerce.com/certified-developer-program?utm_source=github&utm_medium=referral&utm_campaign=certified_developer&utm_content=links)
-* [nopCommerce partners](https://www.nopcommerce.com/partners?utm_source=github&utm_medium=referral&utm_campaign=solution_partners&utm_content=links)
+## 🔍 Code Navigation Tips
 
-nopCommerce YouTube: [The Architecture behind the nopCommerce eCommerce Platform](https://www.youtube.com/watch?v=6gLbizzSA9o&list=PLnL_aDfmRHwtJmzeA7SxrpH3-XDY2ue0a)
+When exploring nopCommerce code:
 
+- **Libraries/Nop.Core**: Domain models and interfaces
+- **Libraries/Nop.Services**: Business logic implementation
+- **Libraries/Nop.Data**: Data access layer
+- **Presentation/Nop.Web.Framework**: Web infrastructure and utilities
 
-### Earn with nopCommerce ###
+## 🎯 Learning Objectives
 
-60,000 stores worldwide are powered by nopCommerce, and 10,000 new stores open every year. nopCommerce [solution partners’ directory](https://www.nopcommerce.com/partners?utm_source=github&utm_medium=referral&utm_campaign=solution_partners&utm_content=text_become_partner) gets 80,000+ page views per year from store owners who are looking for a partner to build a store from scratch, migrate from another platform, or improve and customize an existing store.
+By the end of this guide, you will:
 
-Become a solution partner of nopCommerce and get new clients – [learn more](https://www.nopcommerce.com/become-partner?utm_source=github&utm_medium=referral&utm_campaign=become-partner&utm_content=learn_more).
+- Understand enterprise ASP.NET Core architecture patterns
+- Know how to design scalable, maintainable applications
+- Be able to implement advanced caching strategies
+- Understand middleware and request pipeline design
+- Know how to structure large codebases effectively
+- Be able to apply these patterns to your own projects
 
-Create a new graphical theme or develop a new plugin or integration and sell it on the nopCommerce [Marketplace](https://www.nopcommerce.com/marketplace?utm_source=github&utm_medium=referral&utm_campaign=marketplace&utm_content=text_sell_on_marketplace).
+## 🤝 Contributing
 
+This guide is designed to be a living resource. If you find errors, have suggestions, or want to add content:
 
-### Contribute ###
+1. **Report Issues**: Let us know about any problems
+2. **Suggest Improvements**: Share ideas for better explanations
+3. **Add Examples**: Contribute real-world examples
+4. **Update Code**: Keep examples current with nopCommerce updates
 
-As a free and open-source project, we are very grateful to everyone who helps us to develop nopCommerce. Please find more details about the options and bonuses for contributors at [contribute page](https://www.nopcommerce.com/contribute?utm_source=github&utm_medium=referral&utm_campaign=contribute&utm_content=text).
+## 📚 Further Reading
+
+- [nopCommerce Documentation](https://docs.nopcommerce.com/)
+- [ASP.NET Core Documentation](https://docs.microsoft.com/en-us/aspnet/core/)
+- [Clean Architecture by Robert Martin](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- [Domain-Driven Design](https://martinfowler.com/bliki/DomainDrivenDesign.html)
+
+## 🎉 Success Stories
+
+After completing this guide, you should be able to:
+
+- **Navigate large codebases** with confidence
+- **Design enterprise applications** using proven patterns
+- **Implement performance optimizations** effectively
+- **Apply architectural patterns** to your own projects
+- **Understand business reasoning** behind technical decisions
+
+---
+
+*Ready to level up your ASP.NET Core skills? Start with [Chapter 1](./Chapter-1-Project-Structure.md) and begin your journey into enterprise architecture!*
